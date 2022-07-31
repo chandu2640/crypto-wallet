@@ -1,0 +1,92 @@
+.sidepannel{
+    background-color: #1f2128;
+    color: white;
+    position: relative;
+    bottom: 1614px;
+    left: 1000px;
+    height: 100vh;
+    width: 350px;
+    z-index: -2;
+    font-size: 0.8rem;
+    border-left: 0.5px solid grey;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.actionBtn{
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.buybtn{
+color: rgb(0, 233, 0);
+}
+.sellbtn{
+color: red;
+background-color: #1f2128;
+}
+.available{
+   display: flex;
+   flex-direction: column; 
+   width: 90%;
+   margin: auto;
+   gap: 5px;
+   background-color: rgb(61, 94, 60);
+   padding: 20px;
+   border-radius: 15px;
+   margin-top: 20px;
+   font-weight: bold;
+}
+.extraTitle{
+    color: grey;
+}
+.value{
+    font-size: 1.1rem;
+}
+.extraBox{
+    width: 90%;
+    background-color: rgb(43, 43, 43);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: grey;
+    height: 60px;
+    align-items: center;
+}
+.USDT{
+color: rgb(201, 0, 201);
+font-size: 1.1rem;
+}
+.ETH{
+color: rgb(0, 212, 0);
+font-size: 1.1rem;
+}
+.buyEth{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+ 
+.buyEth button{
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    height: 45px;
+    margin: auto;
+    font-weight: bold;
+    background-color: rgb(0, 252, 0);
+    color: white;
+}

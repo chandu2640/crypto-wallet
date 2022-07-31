@@ -1,0 +1,8 @@
+.chart{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 522px;
+    right: 270px;
+    z-index: -2;     
+}

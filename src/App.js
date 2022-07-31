@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Chart from './component/Chart/Chart'
+import Navbar from './component/Navbar/Navbar'
+import Sidebar from './component/Sidebar/Sidebar'
+import OrderBook from './component/OrderBook/OrderBook' ;
+import { useDispatch, useSelector } from "react-redux";
+import { fetchData } from "./Redux/data/action";
+import Sidepannel from './component/Sidepannel/Sidepannel'
+import Bottomtab from './component/Bottomtab/Bottomtab'
 
-function App() {
+const App = () => {
+  const dispatch=useDispatch;
+  // const dataVis=useSelector((state)=>fetchData);
+  // const dispatch = useDispatch();
+  // const dataVis = useSelector((state) => state.fetchData);
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      <Sidebar/>
+      <Chart/>
+      {/* <Bottomtab/> */}
+      <OrderBook/>
+      <Sidepannel/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

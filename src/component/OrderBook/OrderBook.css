@@ -1,0 +1,48 @@
+.orderbook{
+    background-color: #1f2128;
+    color: white;
+    position: relative;
+    bottom: 1044px;
+    left: 730px;
+    width: 270px;
+    z-index: -2;
+    font-size: 0.8rem;
+}
+.orderOption, .orderAmount{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(148, 148, 148);
+    padding: 2px 5px;
+    align-items: center;
+    color: grey;
+    font-weight: bold;
+}
+.main{
+    color: rgb(199, 0, 199);
+}
+.actualPrice{
+    height: 250px;
+}
+.mainPrice{
+    border-bottom: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 221, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainPriceData{
+    height: 200px;
+}
+
+.orderOption{
+    padding: 0 20px;
+}
+.abc{
+    border: none;
+}

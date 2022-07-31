@@ -1,0 +1,69 @@
+.navbar{
+    background-color: #1f2128;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    border-right: 1px solid rgb(134, 134, 134);
+  }
+  .logoImg img{
+    width: 42px;
+    margin: 0 10px;
+  }
+
+.lastPrice{
+    border-right: 1px solid rgb(134, 134, 134);
+    padding: 20px 0 20px 0;
+    text-align: left;
+    width: 190px;
+}
+.extraIcons{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.navOtherIcons{
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+}
+.navTitle{
+    font-size: 0.6rem;
+    color: grey;
+}
+.navData{
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+.navPriceData{
+    color: rgb(59, 160, 59);
+}
+.pro{
+    background-color: #6c5dd3;
+    width: 80px;
+    border-radius: 50px;
+}
+.probox{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.upArrow{
+    width: 10px;
+}
+.mainName{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.secName{
+    font-size: 0.7rem;
+    color: grey;
+    font-weight: bold;
+}
+  
